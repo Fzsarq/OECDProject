@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Greenhouse Emissions</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<link rel="stylesheet" type="text/css" href="_css/normalize.css">
+	<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="_css/style.css">
+
+	<script type="text/javascript" src="_js/jquery.js"></script>
+	<script type="text/javascript" src="_js/script.js"></script>
+
+</head>
+<body>
+<div class="slideout-menu">
+	<h3>Menu <a href="#" class="slideout-menu-toggle">×</a></h3>
+	<ul>
+		<li><a href="#">Home <i class="fa fa-angle-right"></i></a></li>
+		<li><a href="report.html">Report <i class="fa fa-angle-right"></i></a></li>
+		<li><a href="#">Graphical Representation <i class="fa fa-angle-right"></i></a></li>
+		<li><a href="#">Geolocation <i class="fa fa-angle-right"></i></a></li>
+		<li><a href="#">About me <i class="fa fa-angle-right"></i></a></li>
+	</ul>
+</div>
+	<section class="contentWrap">
+		
+		<header class="nav">
+			<a href="#" class="slideout-menu-toggle"><i class="fa fa-bars"></i>=</a>
+		</header>
+
+		<div class="container">
+			<h1 class="title">OECD</h1>
+		
+			<div class="descript">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique finibus dolor sed ornare. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mauris justo, rhoncus id egestas et, bibendum sit amet ante. Maecenas tincidunt dui malesuada varius ultrices. Fusce interdum libero quam, eu finibus ante fringilla ac. Duis mollis ipsum vel ultricies lobortis. Suspendisse ultrices eros nec purus accumsan sagittis. Proin rutrum scelerisque luctus. Nam bibendum justo at iaculis blandit. Donec accumsan luctus ipsum laoreet posuere. Phasellus vitae quam sollicitudin, mattis lorem nec, maximus nisi. Nullam pharetra felis ac magna sodales, ac auctor diam dictum. Curabitur sollicitudin dui sed mi maximus, sit amet commodo nunc congue. Donec finibus scelerisque feugiat.</p>
+			</div>
+		</div>
+	</section>
+</body>
+
+<script type="text/javascript">
+	$(document).ready(function($) {
+		$('.slideout-menu-toggle').on('click', function(event){
+    	event.preventDefault();
+    	// create menu variables
+    	var slideoutMenu = $('.slideout-menu');
+    	var slideoutMenuWidth = $('.slideout-menu').width();
+    	
+    	// toggle open class
+    	slideoutMenu.toggleClass("open");
+    	
+    	// slide menu
+    	if (slideoutMenu.hasClass("open")) {
+	    	slideoutMenu.animate({
+		    	left: "0px"
+	    	});	
+    	} else {
+	    	slideoutMenu.animate({
+		    	left: -slideoutMenuWidth
+	    	}, 250);	
+    	}
+    });
+	});
+</script>
+</html>

@@ -1,0 +1,334 @@
+<data>
+  <records>
+    <record>
+      <country>France</country>
+      <variable>Methane</variable>
+      <time>2005</time>
+      <value>65946.738</value>
+    </record>
+    <record>
+      <country>France</country>
+      <variable>Methane</variable>
+      <time>2006</time>
+      <value>65650.766</value>
+    </record>
+    <record>
+      <country>France</country>
+      <variable>Methane</variable>
+      <time>2007</time>
+      <value>65899.025</value>
+    </record>
+    <record>
+      <country>France</country>
+      <variable>Methane</variable>
+      <time>2008</time>
+      <value>66385.039</value>
+    </record>
+    <record>
+      <country>France</country>
+      <variable>Methane</variable>
+      <time>2009</time>
+      <value>65513.714</value>
+    </record>
+    <record>
+      <country>France</country>
+      <variable>Nitrous oxide</variable>
+      <time>2005</time>
+      <value>68493.71</value>
+    </record>
+    <record>
+      <country>France</country>
+      <variable>Nitrous oxide</variable>
+      <time>2006</time>
+      <value>66109.66</value>
+    </record>
+    <record>
+      <country>France</country>
+      <variable>Nitrous oxide</variable>
+      <time>2007</time>
+      <value>65579.12</value>
+    </record>
+    <record>
+      <country>France</country>
+      <variable>Nitrous oxide</variable>
+      <time>2008</time>
+      <value>66588.808</value>
+    </record>
+    <record>
+      <country>France</country>
+      <variable>Nitrous oxide</variable>
+      <time>2009</time>
+      <value>62633.981</value>
+    </record>
+    <record>
+      <country>France</country>
+      <variable>Hydrofluorocarbons</variable>
+      <time>2005</time>
+      <value>12589.397</value>
+    </record>
+    <record>
+      <country>France</country>
+      <variable>Hydrofluorocarbons</variable>
+      <time>2006</time>
+      <value>13792.132</value>
+    </record>
+    <record>
+      <country>France</country>
+      <variable>Hydrofluorocarbons</variable>
+      <time>2007</time>
+      <value>14581.924</value>
+    </record>
+    <record>
+      <country>France</country>
+      <variable>Hydrofluorocarbons</variable>
+      <time>2008</time>
+      <value>15156.326</value>
+    </record>
+    <record>
+      <country>France</country>
+      <variable>Hydrofluorocarbons</variable>
+      <time>2009</time>
+      <value>15560.955</value>
+    </record>
+    <record>
+      <country>Germany</country>
+      <variable>Methane</variable>
+      <time>2005</time>
+      <value>57223.912</value>
+    </record>
+    <record>
+      <country>Germany</country>
+      <variable>Methane</variable>
+      <time>2006</time>
+      <value>54168.922</value>
+    </record>
+    <record>
+      <country>Germany</country>
+      <variable>Methane</variable>
+      <time>2007</time>
+      <value>52045.996</value>
+    </record>
+    <record>
+      <country>Germany</country>
+      <variable>Methane</variable>
+      <time>2008</time>
+      <value>51258.799</value>
+    </record>
+    <record>
+      <country>Germany</country>
+      <variable>Methane</variable>
+      <time>2009</time>
+      <value>48794.274</value>
+    </record>
+    <record>
+      <country>Germany</country>
+      <variable>Nitrous oxide</variable>
+      <time>2005</time>
+      <value>64161.579</value>
+    </record>
+    <record>
+      <country>Germany</country>
+      <variable>Nitrous oxide</variable>
+      <time>2006</time>
+      <value>63163.214</value>
+    </record>
+    <record>
+      <country>Germany</country>
+      <variable>Nitrous oxide</variable>
+      <time>2007</time>
+      <value>65338.944</value>
+    </record>
+    <record>
+      <country>Germany</country>
+      <variable>Nitrous oxide</variable>
+      <time>2008</time>
+      <value>66593.74</value>
+    </record>
+    <record>
+      <country>Germany</country>
+      <variable>Nitrous oxide</variable>
+      <time>2009</time>
+      <value>66493.35</value>
+    </record>
+    <record>
+      <country>Germany</country>
+      <variable>Hydrofluorocarbons</variable>
+      <time>2005</time>
+      <value>10000.56</value>
+    </record>
+    <record>
+      <country>Germany</country>
+      <variable>Hydrofluorocarbons</variable>
+      <time>2006</time>
+      <value>10539.442</value>
+    </record>
+    <record>
+      <country>Germany</country>
+      <variable>Hydrofluorocarbons</variable>
+      <time>2007</time>
+      <value>11144.955</value>
+    </record>
+    <record>
+      <country>Germany</country>
+      <variable>Hydrofluorocarbons</variable>
+      <time>2008</time>
+      <value>11473.593</value>
+    </record>
+    <record>
+      <country>Germany</country>
+      <variable>Hydrofluorocarbons</variable>
+      <time>2009</time>
+      <value>11952.193</value>
+    </record>
+    <record>
+      <country>Italy</country>
+      <variable>Nitrous oxide</variable>
+      <time>2005</time>
+      <value>37568.248</value>
+    </record>
+    <record>
+      <country>Italy</country>
+      <variable>Nitrous oxide</variable>
+      <time>2006</time>
+      <value>32233.256</value>
+    </record>
+    <record>
+      <country>Italy</country>
+      <variable>Nitrous oxide</variable>
+      <time>2007</time>
+      <value>31561.986</value>
+    </record>
+    <record>
+      <country>Italy</country>
+      <variable>Nitrous oxide</variable>
+      <time>2008</time>
+      <value>29490.104</value>
+    </record>
+    <record>
+      <country>Italy</country>
+      <variable>Nitrous oxide</variable>
+      <time>2009</time>
+      <value>27821.767</value>
+    </record>
+    <record>
+      <country>Italy</country>
+      <variable>Hydrofluorocarbons</variable>
+      <time>2005</time>
+      <value>5400.562</value>
+    </record>
+    <record>
+      <country>Italy</country>
+      <variable>Hydrofluorocarbons</variable>
+      <time>2006</time>
+      <value>6106.185</value>
+    </record>
+    <record>
+      <country>Italy</country>
+      <variable>Hydrofluorocarbons</variable>
+      <time>2007</time>
+      <value>6855.262</value>
+    </record>
+    <record>
+      <country>Italy</country>
+      <variable>Hydrofluorocarbons</variable>
+      <time>2008</time>
+      <value>7512.979</value>
+    </record>
+    <record>
+      <country>Italy</country>
+      <variable>Hydrofluorocarbons</variable>
+      <time>2009</time>
+      <value>8172.517</value>
+    </record>
+    <record>
+      <country>United Kingdom</country>
+      <variable>Methane</variable>
+      <time>2005</time>
+      <value>48823.323</value>
+    </record>
+    <record>
+      <country>United Kingdom</country>
+      <variable>Methane</variable>
+      <time>2006</time>
+      <value>47380.517</value>
+    </record>
+    <record>
+      <country>United Kingdom</country>
+      <variable>Methane</variable>
+      <time>2007</time>
+      <value>45906.583</value>
+    </record>
+    <record>
+      <country>United Kingdom</country>
+      <variable>Methane</variable>
+      <time>2008</time>
+      <value>44672.978</value>
+    </record>
+    <record>
+      <country>United Kingdom</country>
+      <variable>Methane</variable>
+      <time>2009</time>
+      <value>43807.525</value>
+    </record>
+    <record>
+      <country>United Kingdom</country>
+      <variable>Nitrous oxide</variable>
+      <time>2005</time>
+      <value>38853.39</value>
+    </record>
+    <record>
+      <country>United Kingdom</country>
+      <variable>Nitrous oxide</variable>
+      <time>2006</time>
+      <value>37037.492</value>
+    </record>
+    <record>
+      <country>United Kingdom</country>
+      <variable>Nitrous oxide</variable>
+      <time>2007</time>
+      <value>36555.366</value>
+    </record>
+    <record>
+      <country>United Kingdom</country>
+      <variable>Nitrous oxide</variable>
+      <time>2008</time>
+      <value>35808.33</value>
+    </record>
+    <record>
+      <country>United Kingdom</country>
+      <variable>Nitrous oxide</variable>
+      <time>2009</time>
+      <value>33969.504</value>
+    </record>
+    <record>
+      <country>United Kingdom</country>
+      <variable>Hydrofluorocarbons</variable>
+      <time>2005</time>
+      <value>10265.017</value>
+    </record>
+    <record>
+      <country>United Kingdom</country>
+      <variable>Hydrofluorocarbons</variable>
+      <time>2006</time>
+      <value>10609.708</value>
+    </record>
+    <record>
+      <country>United Kingdom</country>
+      <variable>Hydrofluorocarbons</variable>
+      <time>2007</time>
+      <value>10572.041</value>
+    </record>
+    <record>
+      <country>United Kingdom</country>
+      <variable>Hydrofluorocarbons</variable>
+      <time>2008</time>
+      <value>10853.619</value>
+    </record>
+    <record>
+      <country>United Kingdom</country>
+      <variable>Hydrofluorocarbons</variable>
+      <time>2009</time>
+      <value>10927.214</value>
+    </record>
+  </records>
+</data>
