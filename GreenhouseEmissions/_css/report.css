@@ -1,0 +1,28 @@
+body{
+	text-align: center;
+}
+
+table{
+	border: solid 1px white;
+	text-align: center;
+}
+
+th{
+	border: solid 1px white;
+	padding: 10px 10px;
+	color: white;
+}
+
+
+td{
+	border: solid 1px white;
+	padding: 10px 10px;
+	color: white;
+}
+
+div{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
