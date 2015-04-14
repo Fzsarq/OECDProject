@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8"/>
-	<title>Greenhouse Emissions</title>
+	<title>OECD | Greenhouse Emissions</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<link rel="stylesheet" type="text/css" href="_css/normalize.css">
 	<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
@@ -20,9 +20,9 @@
 	<ul>
 		<li><a href="#">Home <i class="fa fa-angle-right"></i></a></li>
 		<li><a href="report.html">Report <i class="fa fa-angle-right"></i></a></li>
-		<li><a href="#">Graphical Representation <i class="fa fa-angle-right"></i></a></li>
-		<li><a href="#">Geolocation <i class="fa fa-angle-right"></i></a></li>
-		<li><a href="#">About me <i class="fa fa-angle-right"></i></a></li>
+		<li><a href="graph.html">Graphical Representation <i class="fa fa-angle-right"></i></a></li>
+		<li><a href="map.html">Geolocation <i class="fa fa-angle-right"></i></a></li>
+		<li><a href="about.html">About me <i class="fa fa-angle-right"></i></a></li>
 	</ul>
 </div>
 	<section class="contentWrap">
@@ -40,29 +40,4 @@
 		</div>
 	</section>
 </body>
-
-<script type="text/javascript">
-	$(document).ready(function($) {
-		$('.slideout-menu-toggle').on('click', function(event){
-    	event.preventDefault();
-    	// create menu variables
-    	var slideoutMenu = $('.slideout-menu');
-    	var slideoutMenuWidth = $('.slideout-menu').width();
-    	
-    	// toggle open class
-    	slideoutMenu.toggleClass("open");
-    	
-    	// slide menu
-    	if (slideoutMenu.hasClass("open")) {
-	    	slideoutMenu.animate({
-		    	left: "0px"
-	    	});	
-    	} else {
-	    	slideoutMenu.animate({
-		    	left: -slideoutMenuWidth
-	    	}, 250);	
-    	}
-    });
-	});
-</script>
 </html>
