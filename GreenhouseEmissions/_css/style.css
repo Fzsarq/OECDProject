@@ -3,13 +3,18 @@ background: url(../_img/background.jpg) no-repeat center center fixed;
 background-size: cover;
 }
 
+#aboutHtml{
+	background: url(../_img/contactBG.jpg) no-repeat center center fixed;
+background-size: cover;
+}
+
 .slideout-menu {
 	position: fixed;
 	top: 0;
 	left: -250px;
 	width: 250px;
 	height: 100%;
-	background: rgba(100,50,10,0.2);
+	background: rgb(0,0,0);
 	z-index: 100;
 }
 .slideout-menu h3 {
@@ -67,14 +72,43 @@ background-size: cover;
 	opacity: .5;
 }
 
+.info{
+	color: white;
+	border: solid 1px #c3d5de;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 30em;
 
+}
+
+.mapWrap{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
 
 .contentWrap{
 	background: rgba(0,0,0,0.6);
 	height: 100vh;
 	width: 100%;
+	overflow: scroll;
 	position: fixed;
 }
+
+.aboutWrap{
+	background: rgba(0,0,0,0.4);
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
 
 .nav{
 	width:100%;
@@ -125,7 +159,22 @@ background-size: cover;
 	line-height: 30px;
 	padding-top: 10px;
 }
-x
+
+#mapCanvas{
+	margin: auto auto;
+}
+
+.mapWrap{
+	font-family: 'bebas_neuebold', sans-serif;
+	color: white;
+}
+
+#gasWrap{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
 
 /*@media only screen and (max-width: 767px) {
   body {

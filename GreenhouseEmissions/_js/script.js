@@ -1,4 +1,4 @@
-$(document).on("pageshow", "index.html", function(){
+$(document).ready(function(){
 	 $('.slideout-menu-toggle').on('click', function(event){
     	event.preventDefault();
     	// create menu variables

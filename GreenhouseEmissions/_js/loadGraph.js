@@ -32,6 +32,7 @@ function loadChartData(xml)
         years[i] = $(xml).find("time").eq(i).text();
 
         frMethane[i] = $(xml).find("value").eq(i).text();
+        
         gerMethane[i] = $(xml).find("value").eq(i+15).text();
         ukMethane[i] = $(xml).find("value").eq(i+40).text();
 
@@ -45,11 +46,13 @@ function loadChartData(xml)
         itaHFC[i] = $(xml).find("value").eq(i+35).text();
         ukHFC[i] = $(xml).find("value").eq(i+50).text();
     }
+    console.log(frMethane);
 
     var methaneData = {
         labels: years,
         datasets: [
             {
+                label: "France",
                 fillColor: "rgba(220,220,220,0.2)",
                 strokeColor: "rgba(220,220,220,1)",
                 pointColor: "rgba(220,220,220,1)",
@@ -59,6 +62,7 @@ function loadChartData(xml)
                 data: frMethane
             },
             {
+                label: "Germany",
                 fillColor: "rgba(151,187,205,0.2)",
                 strokeColor: "rgba(151,187,205,1)",
                 pointColor: "rgba(151,187,205,1)",
@@ -68,6 +72,7 @@ function loadChartData(xml)
                 data: gerMethane
             },
             {
+                label: "UK",
                 fillColor: "rgba(241, 215, 223,0.2)",
                 strokeColor: "rgba(241, 215, 223,1)",
                 pointColor: "rgba(241, 215, 223,1)",
@@ -83,6 +88,7 @@ function loadChartData(xml)
         labels: years,
         datasets: [
             {
+                label: "France",
                 fillColor: "rgba(220,220,220,0.2)",
                 strokeColor: "rgba(220,220,220,1)",
                 pointColor: "rgba(220,220,220,1)",
@@ -92,6 +98,7 @@ function loadChartData(xml)
                 data: frN2O
             },
             {
+                label: "Germany",
                 fillColor: "rgba(151,187,205,0.2)",
                 strokeColor: "rgba(151,187,205,1)",
                 pointColor: "rgba(151,187,205,1)",
@@ -101,6 +108,7 @@ function loadChartData(xml)
                 data: gerN2O
             },
             {
+                label: "Italy",
                 fillColor: "rgba(215,236,241,0.2)",
                 strokeColor: "rgba(215,236,241,1)",
                 pointColor: "rgba(215,236,241,1)",
@@ -110,6 +118,7 @@ function loadChartData(xml)
                 data: itaN2O
             },
             {
+                label: "UK",
                 fillColor: "rgba(241, 215, 223,0.2)",
                 strokeColor: "rgba(241, 215, 223,1)",
                 pointColor: "rgba(241, 215, 223,1)",
@@ -124,7 +133,8 @@ function loadChartData(xml)
      var hfcData = {
         labels: years,
         datasets: [
-            {
+            {   
+                label: "France",
                 fillColor: "rgba(220,220,220,0.2)",
                 strokeColor: "rgba(220,220,220,1)",
                 pointColor: "rgba(220,220,220,1)",
@@ -134,6 +144,7 @@ function loadChartData(xml)
                 data: frHFC
             },
             {
+                label: "Germany",
                 fillColor: "rgba(151,187,205,0.2)",
                 strokeColor: "rgba(151,187,205,1)",
                 pointColor: "rgba(151,187,205,1)",
@@ -143,6 +154,7 @@ function loadChartData(xml)
                 data: gerHFC
             },
             {
+                label: "Italy",
                 fillColor: "rgba(151,187,205,0.2)",
                 strokeColor: "rgba(151,187,205,1)",
                 pointColor: "rgba(151,187,205,1)",
@@ -152,6 +164,7 @@ function loadChartData(xml)
                 data: itaHFC
             },
             {
+                label: "UK",
                 fillColor: "rgba(241, 215, 223,0.2)",
                 strokeColor: "rgba(241, 215, 223,1)",
                 pointColor: "rgba(241, 215, 223,1)",
@@ -162,14 +175,27 @@ function loadChartData(xml)
             }
         ]
     };
+    var options ={
+        animation: true,
+        animationEasing: "easeOutQuart",
+        legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"color:<%=datasets[i].strokeColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>"
+    };
+    
+
+
 
     var ctx = $("#methane").get(0).getContext("2d");
-    var lineChart = new Chart(ctx).Line(methaneData);
+    var lineChart = new Chart(ctx).Line(methaneData, options);
+    var methLegend = lineChart.generateLegend();
+    $("#methGas").append(methLegend);
 
     var ctx = $("#n2o").get(0).getContext("2d");
-    var lineChart = new Chart(ctx).Line(n2oData);
+    var lineChart = new Chart(ctx).Line(n2oData, options);
+    var n2oLegend = lineChart.generateLegend();
+    $("#n2oGas").append(n2oLegend);
 
     var ctx = $("#hfc").get(0).getContext("2d");
-    var lineChart = new Chart(ctx).Line(hfcData);
-
+    var lineChart = new Chart(ctx).Line(hfcData, options);
+    var hfcLegend = lineChart.generateLegend();
+    $("#hfcGas").append(hfcLegend);
 }
